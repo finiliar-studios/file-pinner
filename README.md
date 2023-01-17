@@ -12,7 +12,7 @@ Open a command line and perform the following to set up the local environment:
 # How to use
 For each animation, perform the following steps:
 1. edit the fields in the .env file to point to the new animations directory
-2. run `node scripts/renameFiles.js` to create a copy of the directory with the proper naming schema
+2. run `node scripts/renameFiles.js` to create a copy of the directory with the proper naming schema. IMPORTANT: make sure you run the s3 sync commands against the newly created directory with the proper names.
 3. run `node scripts/pinFiles.js` to pin the new, renamed files to IPFS
 
 # When you're done
