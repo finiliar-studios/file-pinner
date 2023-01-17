@@ -17,3 +17,4 @@ For each animation, perform the following steps:
 
 # When you're done
 1. make a git commit with the new CIDs and push to main to save (`git add .` then `git commit -m "saving cids"` then `git push`)
+2. delete any local `renamed` folders you don't need anymore
